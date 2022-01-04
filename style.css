@@ -24,7 +24,7 @@ body{
     /* height: 400px;
     width: 400px; */
     border-radius: 50%;
-    width: 70%;
+    width: 80%;
     /* float: right;
     margin-right: 100px; */
     
@@ -57,24 +57,39 @@ body{
     color: rgb(31, 34, 37);
     padding-bottom: 20px;
 }
-
+.experience{
+    margin-top: 200px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
 .experience-flex{
     display: flex;
-}
-/* .part2{
-    width: 50%;
-    text-align: justify;
-    padding: 40px; 
+    margin-bottom: 50px;
 }
 
-.part2 img{
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
+.experience-item{
+    text-align: justify;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5px;
+    /* padding: 20px 40px;
+    margin-left: 40px; */
+    box-shadow: 20px 20px 40px grey;
+    padding: 20px;
+    font-size: 16px;
 }
-.part2 a{
-    padding:10px 20px ;
-    text-decoration: none;
-    background-image: linear-gradient(tomato,orange);
-    border-radius: 15px;
-} */
+#stack-exp{
+    border-left: 3px solid;
+    border-image: linear-gradient( red, orange);
+    border-image-slice: 1;
+}
+#baby-exp{
+    border-left: 3px solid;
+    border-image: linear-gradient( blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: grey;
+    font-size: 16px;
+}
